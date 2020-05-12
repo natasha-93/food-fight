@@ -1,0 +1,40 @@
+.app {
+  background: rgba(255, 255, 255, 0.6);
+  padding: 2rem;
+  margin: auto;
+  text-align: center;
+}
+
+.cuisineContainer {
+  display: flex;
+  padding: 0;
+  align-items: center;
+}
+
+.resetButton {
+  border: none;
+  background-color: black;
+  border-radius: 2rem;
+  padding: 0.5rem 1rem;
+  color: white;
+  font-size: 1rem;
+}
+
+.winner,
+.or,
+.header {
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+.video {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -100;
+  transform: translate(-50%, -50%);
+}

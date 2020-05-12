@@ -1,0 +1,25 @@
+.cuisine {
+  height: 10rem;
+  width: 15rem;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 2rem;
+  font-weight: bold;
+  margin: 1rem;
+  cursor: pointer;
+  user-select: none;
+  opacity: 0.9;
+}
+
+.cuisine:hover {
+  opacity: 1;
+}
+
+.cuisine.readonly {
+  cursor: default;
+}
